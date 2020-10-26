@@ -20,7 +20,7 @@ class voice_commands(commands.Cog):
         await ctx.send(response)
 
     @commands.command()
-    async def souljaboy(self, ctx):
+    async def souljaboy(self, ctx): # Doesnt work. i think i dont remember
         voice_channel = ctx.author.voice.channel
         channel = None
         if voice_channel != None:
