@@ -87,4 +87,4 @@ if __name__ == '__main__':
         except Exception as error:
             print('{} cannot be loaded. [{}]'.format(extension, error))
 
-    bot.run('NzU2NjgyMDUyNzM2Mzg1MTg0.X2VZEw.og_uy3iQs5XI7Uh7KgZU8eOWIKo')
+    bot.run('TOKEN')
